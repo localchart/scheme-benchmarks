@@ -194,7 +194,7 @@
 (time ((nest-interp interp-text 5) fact5))
 
 ;; ------------------------- results 1 -----------------------------
-;; Ran on Macbook Pro 13" (with 2-core i5 Haswell processor)
+;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
 
 ;; Racket 5.3.6
 ;; Level 4: cpu time: 3924 ms, gc time: 344 ms
@@ -204,8 +204,8 @@
 ;; Level 4: cpu time: 15049 ms gc time: 375 ms
 ;; Level 5: (pointless to run)
 
-;; Chez Scheme 8.4 (optimize-level 3)
-;; Ran on a different machine: 64-core AMD Opteron 6276, 512G RAM
+;; Chez Scheme 8.4 (optimize-level 3, on different machine)
+;; Ran on: 64-core AMD Opteron 6276 (2300 MHz), 512G RAM
 ;; Level 4: cpu time: 4098 ms, gc time 251 ms
 ;; Level 5: cpu time: 966614 ms, gc time: 728245 ms
 

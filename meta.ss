@@ -197,10 +197,17 @@
 ;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
 
 ;; Racket 5.3.6
+;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
 ;; Level 4: cpu time: 3924 ms, gc time: 344 ms
 ;; Level 5: cpu time: 427058 ms, gc time: 151906 ms
 
+;; Racket 5.3.6
+;; Ran on: 64-core AMD Opteron 6276 (2300 MHz), 512G RAM
+;; Level 4: cpu time: 8276 ms, gc time: 379 ms
+;; Level 5: cpu time: 856447 ms, gc time: 254669 ms
+
 ;; Petite Chez Scheme 8.4
+;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
 ;; Level 4: cpu time: 15049 ms gc time: 375 ms
 ;; Level 5: (pointless to run)
 
@@ -210,10 +217,12 @@
 ;; Level 5: cpu time: 966614 ms, gc time: 728245 ms
 
 ;; Larceny 0.97
+;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
 ;; Level 4: cpu time: 3203 ms, gc time: 268 ms
 ;; Level 5: (over 40 minutes... didn't want to wait)
 
 ;; Larceny 0.98b1
+;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
 ;; Level 4: Larceny Panic: Sys/semispace.c;145: Assertion failed.
 
 
@@ -223,10 +232,16 @@
 ;; (time ((nest-interp interp-text 5) member-test))
 
 ;; Racket 5.3.6
+;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
 ;; Level 4: cpu time: 1976 ms,  gc time: 117 ms
 ;; Level 5: cpu time: 192348 ms, gc time: 45944 ms
 
+;; Ran on: 64-core AMD Opteron 6276 (2300 MHz), 512G RAM
+;; Level 4: cpu time: 6420, gc time: 2370
+;; Level 5: cpu time: 361893, gc time: 64461
+
 ;; Chez Scheme 8.4
+;; Ran on: 64-core AMD Opteron 6276 (2300 MHz), 512G RAM
 ;; Level 4: cpu time: 1644 ms, gc time: 114 ms
 ;; Level 5: cpu time: 219323 ms, gc time: 101489 ms
 
@@ -236,10 +251,12 @@
 ;; (time ((nest-interp interp-text 5) rho-test))
 
 ;; Racket 5.3.6
+;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
 ;; Level 4: cpu time: 412 ms, gc time: 123 ms
 ;; Level 5: cpu time: 26052 ms, gc time: 5447 ms
 
 ;; Chez Scheme 8.4
+;; Ran on: 64-core AMD Opteron 6276 (2300 MHz), 512G RAM
 ;; Level 4: cpu time: 483 ms, gc time: 250 ms
 ;; Level 5: cpu time: 19897 ms, gc time: 2999 ms
 

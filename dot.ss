@@ -15,20 +15,22 @@
 
 (bench)
 
-;; Petite:
+
+;; Petite Chez Scheme 8.4:
 ;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
 ;; cpu time: 11721, gc time: 7480
 ;; 3.59G peak memory
 
-;; Racket:
+;; Racket 5.3.6
 ;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
 ;; cpu time: 13459, gc time: 7910
 ;; 5G peak memory
 
+;; Racket 5.90.0.10
 ;; Ran on: 64-core AMD Opteron 6276 (2300 MHz), 512G RAM
 ;; cpu time: 24822, gc time: 13840
 
-;; Chez Scheme
+;; Chez Scheme 8.4
 ;; Ran on: 64-core AMD Opteron 6276 (2300 MHz), 512G RAM
 ;; cpu time: 23666 ms, gc time: 16922 ms
 
@@ -39,3 +41,11 @@
 ;; *** set a breakpoint in malloc_error_break to debug
 ;; Mapping failed: (null)
 ;; Process scheme exited abnormally with code 255
+
+;; Clozure Common Lisp (see code in dot.lisp) 1.9-r15757
+;; Ran on: 64-core AMD Opteron 6276 (2300 MHz), 512G RAM
+;; cpu time: 53,403 ms, gc time: 45,506 ms
+
+;; Ran on Macbook Pro 13" (with 2-core i5 Haswell 2.6G processor, 8G RAM)
+;; cpu time: 27,751 ms, gc time: 21,795 ms
+;; peak memory: 1.23G
